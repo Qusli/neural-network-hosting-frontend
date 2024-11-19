@@ -10,7 +10,7 @@ interface Props {
 }
 
 const props = withDefaults(defineProps<InputProps & Props>(), {
-  size: 'md',
+  size: 'xl',
   validation: () => true,
 })
 

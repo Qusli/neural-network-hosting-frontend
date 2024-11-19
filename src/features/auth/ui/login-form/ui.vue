@@ -35,7 +35,7 @@ const goToRegistration = () => {
       <Input v-model="model.email" type="email" placeholder="Почта" />
       <Input v-model="model.password" type="password" placeholder="Пароль" />
       <div :class="$s.actions">
-        <Checkbox v-model="model.remember" label="Запомнить меня" size="sm" />
+        <Checkbox v-model="model.remember" label="Запомнить меня" size="md" />
         <RouterLink
           :to="ROUTES.AUTH.PASSWORD_RECOVERY.PATH"
           :class="$s['password-repeat-link']"

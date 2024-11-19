@@ -34,7 +34,11 @@ const goToLogin = () => {
     <template #inputs>
       <Input v-model="model.email" type="email" placeholder="Почта" />
       <Input v-model="model.password" type="password" placeholder="Пароль" />
-      <Input v-model="model.passwordRepeat" type="password" placeholder="Повторите пароль" />
+      <Input
+        v-model="model.passwordRepeat"
+        type="password"
+        placeholder="Повторите пароль"
+      />
     </template>
     <template #buttons>
       <Button
@@ -57,5 +61,5 @@ const goToLogin = () => {
 </template>
 
 <style lang="scss" module="$s">
-  @import url("../style.scss");
+@import url('../style.scss');
 </style>

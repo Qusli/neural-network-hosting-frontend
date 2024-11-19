@@ -100,8 +100,8 @@ const onClickClearIcon = (): void => {
     >
       <input
         ref="input"
-        :id="id"
         v-model="model"
+        :id="id"
         :type="_type"
         :class="$s.input"
         :style="styleInput"
@@ -164,7 +164,6 @@ const onClickClearIcon = (): void => {
 
   .input {
     width: 100%;
-    height: 100%;
 
     padding: 15px 20px;
     border: 1px solid rgba($stroke-input-color, 0.25);
