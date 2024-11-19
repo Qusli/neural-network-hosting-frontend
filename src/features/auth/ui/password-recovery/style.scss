@@ -1,0 +1,14 @@
+.form {
+  width: 500px;
+}
+
+.buttons-container {
+  width: 100%;
+
+  display: flex;
+  gap: 15px;
+
+  button {
+    width: 100%;
+  }
+}

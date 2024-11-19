@@ -1,0 +1,17 @@
+@use 'sass:color';
+
+$primary: #3b82f6;
+
+$acent: #8bb8ffcc;
+
+$text: #111827;
+$acent-text: color.mix($primary, rgba($text, 0.8));
+
+$stroke: #DDDDDD;
+$stroke-input-color: #656565;
+
+$background-color: #f8f8f8;
+
+$box-shadow-color: #c6c6c6;
+
+$error: #CA0000;

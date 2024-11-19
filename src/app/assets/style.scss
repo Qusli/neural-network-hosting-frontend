@@ -1,0 +1,61 @@
+@import 'fonts.scss';
+
+html {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: $background-color;
+}
+
+#app {
+  height: 100vh;
+}
+
+button,
+input {
+  font-size: 16px;
+}
+
+input {
+  border: 0;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+button {
+  border: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.title {
+  font-size: 32px;
+}
+
+.hidden {
+  display: none;
+}
